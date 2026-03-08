@@ -1,6 +1,6 @@
 {
     "name": "pg-schema-compare",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Compare two PostgreSQL database schemas structurally, ignoring naming differences",
     "type": "module",
     "bin": {
@@ -13,7 +13,7 @@
         "README.md"
     ],
     "scripts": {
-        "build": "bun run tsc",
+        "build": "tsc -p tsconfig.build.json",
         "dev": "bun run bin/cli.ts",
         "check": "bun run check:types && bun run check:lint && bun run check:format && bun run knip",
         "check:types": "bunx --bun tsc --noEmit",
