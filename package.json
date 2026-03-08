@@ -35,6 +35,10 @@
         "migration",
         "database"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ilhanaydinli/pg-schema-compare"
+    },
     "license": "MIT",
     "dependencies": {
         "chalk": "^5.4.0",
