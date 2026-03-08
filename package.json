@@ -1,6 +1,6 @@
 {
     "name": "pg-schema-compare",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Compare two PostgreSQL database schemas structurally, ignoring naming differences",
     "type": "module",
     "bin": {
@@ -8,7 +8,10 @@
     },
     "main": "./dist/src/index.js",
     "types": "./dist/src/index.d.ts",
-    "files": ["dist", "README.md"],
+    "files": [
+        "dist",
+        "README.md"
+    ],
     "scripts": {
         "build": "bun run tsc",
         "dev": "bun run bin/cli.ts",
@@ -24,7 +27,14 @@
         "knip": "knip-bun",
         "prepublishOnly": "bun run build"
     },
-    "keywords": ["postgresql", "schema", "diff", "compare", "migration", "database"],
+    "keywords": [
+        "postgresql",
+        "schema",
+        "diff",
+        "compare",
+        "migration",
+        "database"
+    ],
     "license": "MIT",
     "dependencies": {
         "chalk": "^5.4.0",
